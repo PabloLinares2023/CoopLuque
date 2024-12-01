@@ -1,0 +1,93 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css3?family=Shrikhand&family=Yellowtail&display=swap');*/
+/* 
+body { 
+    font-family: 'Verdana',sans-serif ;
+    overflow-x: hidden ;
+    
+} */
+/*body {
+    font-family: "Shrikhand", sans-serif;
+    overflow-x: hidden;
+  }*/
+
+/*body{
+    font-family: "Yellowtail" !important;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+
+
+
+/* #menu li > a {
+    font-size:18px;
+    font-weight:bold;
+    color: rgb(26, 233, 233);
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight:bold;
+} */
+
+/* .carousel-item img {
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho del contenedor 
+    height: 344px; /* Ajusta la altura deseada 
+    object-fit: cover ; /* Mantiene la proporción de la imagen y cubre el área 
+    
+} */
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-group {
+    display: flex;
+  }
+  .card {
+    flex: 1;
+    min-height: 200px;
+  }
+
+
+
+
+
+
+
+/* MEDIA QUERIES PANTALLA ANCHA */
+
+/* MEDIA QUERIES PANTALLA MEDIA */
+
+
+
+
+
+
+/* MEDIA QUERIES PANTALLA PEQUEÑA */
+
+@media (max_width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+/* MEDIA QUERIES PANTALLA EXTRA PEQUEÑA */
+@media  (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+}
+    

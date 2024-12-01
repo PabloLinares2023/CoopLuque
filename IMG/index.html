@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--!!! IMPORTANTE INSTALAR "LIVE SERVER" EN LAS EXTENSIONES PARA AUTOMATIZAR la actualización 
+      DE LA PAGINA QUE ESTOY DESARROLLANDO-->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Agregamos la referencia a nuestro CSS en donde estara guardado todo lo referido al estilo de nuestra web.-->
+  <link rel="stylesheet" href="./css/miestilo.css">
+  <title>COOPERATIVA LUQUE</title>
+</head>
+
+<body>
+  <!-- Cambios agregados hoy domingo 01/12/24 -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- <header class="container-fluid bg-primary d-flex align-items-center">
+      
+      <p class="text-light mb-1 p-1 fs-5">Bienvenido</p>
+    </header> -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
+    <div class="container-fluid">
+      <img src="/IMAGENES/logo.png" alt="logo" width="40" height="35">
+      <!--<a class="navbar-brand" href="#">Navbar(Barra de Navegación)</a>-->
+      <span class="text-primary fs-6 fw-bold">
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Elementos desplegables en el Nav-->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" id="MiNav">
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0 d-flex justify-content-center text-center ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" id="Home">
+              Home
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Estatuto Social</a></li>
+              <li><a class="dropdown-item" href="#">Mision,Vision y Valores</a></li>
+              <li><a class="dropdown-item" href="#">Consejo de Administración</a></li>
+              <li><a class="dropdown-item" href="#">Nuestra Historia</a></li>
+              <li><a class="dropdown-item" href="#">Cooperativismo</a></li>
+              <li><a class="dropdown-item" href="#">Convocatoria a Asamblea</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Otros</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0 d-flex justify-content-center text-center"> ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Energia electrica</a></li>
+              <li><a class="dropdown-item" href="#">Agua y Saneamiento</a></li>
+              <li><a class="dropdown-item" href="#">Servicios Sociales </a></li>
+              <li><a class="dropdown-item" href="#">Telefonia Celular</a></li>
+              <li><a class="dropdown-item" href="#">Red Coop</a></li>
+              <li><a class="dropdown-item" href="#">Luque Tv</a></li>
+              <li><a class="dropdown-item" href="#">EduCoop</a></li>
+              <li><a class="dropdown-item" href="#">HormiCoop</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Otros</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-2 mb-2 mb-lg-0 d-flex justify-content-center text-center"> ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Socios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Mi Factura</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Otros</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center text-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Noticias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Ultimas Noticias</a></li>
+              <li><a class="dropdown-item" href="#">Revista</a></li>
+              <li><a class="dropdown-item" href="#">Necrologicas</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Otros</a></li>
+            </ul>
+          </li>
+        </ul>
+        </ul>
+        <div class="iconos-redes text-rigth">
+          <a href="https://twitter.com" target="_blank">
+            <img src="/Imagenes/twitter.png" alt="twitter" width="30" height="30">
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <img src="/Imagenes/facebook.png" alt="facebook" width="30" height="30">
+          </a>
+          <a href="https://web.whatsapp.com" target="_blank">
+            <img src="/Imagenes/whatsapp.png" alt="whatsapp" width="40" height="40">
+          </a>
+        </div>
+        <!-- <form class="d-flex">
+                <input class="form-control me-2" type="email" placeholder="CorreoElectronico" aria-label="email">
+                <button class="btn btn-outline-success" type="button">Suscribirse</button>
+              </form> -->
+      </div>
+    </div>
+  </nav>
+  <!--Slider 1 de imagenes (Carusel)-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/IMAGENES/ImagenCarousel_1.jpg" class="d-block w-100" alt="ImagenCarousel_1.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Al servicio de la comunidad</h1>
+          <p>Respondemos a las necesidades de nuestros socios y usuarios.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/IMAGENES/ImagenCarousel_2.jpg" class="d-block w-100" alt="ImagenCarousel_2.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>EduCoop</h1>
+          <p>Siempre apoyando el desarrollo integral de nuestra comunidad.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/IMAGENES/ImagenCarousel_3.jpg" class="d-block w-100" alt="ImagenCarousel_3.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Red Coop</h1>
+          <h2>Conectate a la red mas rápida de la región.</h2>
+          <p>Un servicio de Internet acorde a tus necesidades!.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <p></p>
+  <div class="card-group">
+    <p></p>
+      <h3 class="text-center">Nuestros Servicios</h3>
+    <p></p>  
+
+    <!--6 Tarjetas con contenido de presentación y redirección-->
+    
+    <div class="card-group mb-3" style="background-color: black;">
+      <div class="card">
+        <img src="/IMAGENES/EnergiaElectrica.png" class="card-img-top" alt="EnergiaElectrica">
+        <div class="card-body">
+          <h5 class="card-title text-center">Energia electrica</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Energia para todos !!</h5>
+              <p class="card-text">Nos preocupamos en brindar un servicio de calidad con los estandares requeridos.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/IMAGENES/Agua_y_Saneamiento.png" class="card-img-top" alt="Agua_y_Saneamiento">
+        <div class="card-body">
+          <h5 class="card-title text-center">Agua y Saneamiento</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Agua potable para todos !!</h5>
+              <p class="card-text">Trabajamos continuamente en la mejora del servicio de agua potable.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/IMAGENES/EduCoop.png" class="card-img-top" alt="EduCoop">
+        <div class="card-body">
+          <h5 class="card-title text-center">Edu Coop</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Compromiso con nuestra comunidad.</h5>
+              <p class="card-text">Trabajando junto a los centros educativos de nuestra comunidad.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/IMAGENES/ServiciosSociales.png" class="card-img-top" alt="ServiciosSociales">
+        <div class="card-body">
+          <h5 class="card-title text-center">Servicios Sociales</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Siempre acompañando a nuestros socios y afiliados.</h5>
+              <p class="card-text">Trabajamos en la continua mejora del servicio.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-group mb-3" style="background-color: black;">
+      <div class="card">
+        <img src="/IMAGENES/HormiCoop.png" class="card-img-top" alt="HormiCoop">
+        <div class="card-body">
+          <h5 class="card-title text-center">HormiCoop</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Concretando obras !</h5>
+              <p class="card-text">Aportando calidad y eficiencia, en el desarrollo de distintos proyectos.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/IMAGENES/LuqueTV.png" class="card-img-top" alt="LuqueTv">
+        <div class="card-body">
+          <h5 class="card-title text-center">Luque TV</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Gestion de señal propia.</h5>
+              <p class="card-text">Brindamos un servicio de tv siguiendo estandares propios.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/IMAGENES/RedCoop.png" class="card-img-top" alt="RedCoop">
+        <div class="card-body">
+          <h5 class="card-title text-center">RedCoop</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Fibra Optica</h5>
+              <p class="card-text">Servicio de fibra optica con estandares de calidad internacionales.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/IMAGENES/Celular.jpg" class="card-img-top" alt="Celular">
+        <div class="card-body">
+          <h5 class="card-title text-center">Celular</h5>
+          <div class="card text-center mb-3" style="width: 18rem; background-color: black; color: white;">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Intro-->
+    <!-- <section class="W-50 mx-auto text-center pt-4" id="intro"> Con pt-4 le doy la separacion a la seccion-->
+    <h1 class="p-3 fs-2 border-top border-2">
+      <span class="text-secondary">Potenciando la pequeña, mediana y gran Empresa(Presencia online,SEO,Paginas
+        Web,Tiendas Virtuales,Redes Sociales)</span>
+    </h1>
+    <p><span>.......</span></p>
+    </section> -->
+
+    <!-- Seccion Servicios (o el nombre que haga referencia a nuestra idea) Lo buscamos en boostrap Layout > Grid    -->
+
+    <!-- <section class="container-fluid text-center">
+      <div class="row w-75 mx-auto servicio-fila">
+        <div class="col-lg-4 col-md-12 col-sm-12 my-5 justify-content-star icono-wrap">
+          <img src="/Imagenes/Tecnico.png" alt="Tecnico" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-2">Investigación</h3>
+            <p>Compromiso con la investigación y eficiencia de los procesos.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 my-5 justify-content-star icono-wrap">
+          <img src="/Imagenes/Tecnico1.png" alt="Tecnico1" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-2 ">Desarrollo</h3>
+            <p class="px-4">Desarrollo de soluciones en hardware y software a medida para cada necesidad.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 my-5 justify-content-star icono-wrap">
+          <img src="/Imagenes/Tecnico2.png" alt="Tecnico2" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-2 ">Implementación</h3>
+            <p>Acompañamiento en cada una de las etapas y seguimiento personalizado una vez realizada la implementacion.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!--Section acerca de nosotros-->
+    <!-- <section>
+      <div class="w-50 m-auto text-center" id="equipo">
+        <div class="mt-5 text-center">
+        </div>
+        <h1 class="mb-5 fs-2">Equipo pequeño con<span class="text-primary">Grandes resultados !!</span></h1>
+        <p class="fs-4">Una empresa conformada por las personas adecuadas.
+        Si te sientes listo para el reto, te esperamos para que te unas a nosotros.
+        </p>
+      </div>
+      <div class="mt-5 text-center">
+        <img class="img-fluid" src="/Imagenes/equipo.png" alt="equipo">
+      </div>
+     
+    </section> -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
